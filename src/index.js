@@ -4,19 +4,19 @@ import ReactDOM from "react-dom/client";
 const Alert = (props) => {
 	if (props.color === "red")
 		return (
-			<div class="alert alert-danger" role="alert">
+			<div className="alert alert-danger" role="alert">
 				This is a danger alert—check it out!
 			</div>
 		)
 	else if (props.color === "orange")
 		return (
-			<div class="alert alert-warning" role="alert">
+			<div className="alert alert-warning" role="alert">
 				This is a warning alert—check it out!
 			</div>
 		)
 	else if (props.color === "green")
 		return (
-			<div class="alert alert-success" role="alert">
+			<div className="alert alert-success" role="alert">
 				This is a warning alert—check it out!
 			</div>
 		)
